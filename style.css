@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    background-color: black;
+
+}
+
+
+
+#navmenu  {
+    display: inline-flex;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+
+#navmenu li a {
+    text-decoration: none;
+    color: rgb(220, 224, 13);
+    font-size: large;
+    margin: 5px;
+}
+
+.hero {
+    font-size: large;
+    display: grid;
+    margin: 15px;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+}
+
+#clr_change:hover {
+    cursor: pointer;
+
+}
+
+.dark_theme {
+    display: flex;
+    justify-content: end;
+}
+
+.theme {
+    color: white;
+    border-radius: 8px;
+    font-size: large;
+    border: none;
+    background-color: rgb(78, 78, 233);
+    display: flex;
+    
+}
+
+.theme:hover {
+    cursor: pointer;
+    background-color: blue;
+}
